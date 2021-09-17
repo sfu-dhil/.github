@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Tips and instructions for creating issues
-    url: https://sfu-dhil.github.io/dhil-docs/
-    about: Tips, examples, and explanations for submitting issues on GitHub 
+    url: https://sfu-dhil.github.io/dhil-docs/github
+    about: Tips, examples, and explanations for submitting issues on GitHub
