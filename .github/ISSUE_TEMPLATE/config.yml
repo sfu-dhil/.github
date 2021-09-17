@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DHIL's documentation
+    url: https://sfu-dhil.github.io/dhil-docs/
+    about: Documentation for practices and procedures for the DHIL, including GitHub issues
