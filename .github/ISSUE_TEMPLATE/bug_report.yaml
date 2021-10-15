@@ -2,11 +2,11 @@ name: Bug Report
 description: File a bug report
 body:
   - type: markdown
-    value: "## New Issue"
+    value: "## Welcome!"
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug!
   - type: textarea
     attributes:
       label: What isn’t working as expected on the website?
@@ -31,7 +31,7 @@ body:
       placeholder: The steps you took
     validations:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: code-of-conduct
     attributes:
       label: Code of Conduct
