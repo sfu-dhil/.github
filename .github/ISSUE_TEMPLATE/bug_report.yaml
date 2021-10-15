@@ -1,0 +1,46 @@
+name: Bug Report
+description: File a bug report
+title:
+labels:
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: contact
+    attributes:
+      label: What isn’t working as expected on the website?
+      description: A concise description of the problem
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: If you encountered an error message, please copy the relevant details or take a screenshot and paste it below.
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: What is the URL of the page where you encountered the bug?
+      description: Type N/A if not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: What steps did you take before you encountered the bug?
+      placeholder: The steps you took
+    validations:
+      required: true
+  - type: checkbox
+    id: code-of-conduct
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
