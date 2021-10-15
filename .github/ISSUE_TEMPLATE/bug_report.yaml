@@ -15,7 +15,7 @@ body:
     attributes:
       label: If you encountered an error message, please copy the relevant details or take a screenshot and paste it below.
       description: |
-        "If you see an error message, please use the Copy Details button to copy and paste the information into the bug report.<br><br>In some cases, a bug won’t necessarily produce an error page—i.e. something isn’t displaying properly or an input form doesn’t contain the correct fields. In those instances, post a screenshot of the page or the area of the page that contains the issue."
+        If you see an error message, please use the Copy Details button to copy and paste the information into the bug report.<br><br>In some cases, a bug won’t necessarily produce an error page—i.e. something isn’t displaying properly or an input form doesn’t contain the correct fields. In those instances, post a screenshot of the page or the area of the page that contains the issue.
       placeholder: Type NA if not applicable
     validations:
       required: true
