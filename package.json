@@ -1,0 +1,9 @@
+{
+  "name": "SFU DHIL organization repo",
+  "scripts": {
+      "convert": "node script/convert-template.js"
+  },  
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

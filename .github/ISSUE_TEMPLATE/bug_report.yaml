@@ -1,0 +1,53 @@
+name: Bug Report
+description: File a bug report
+body:
+  - type: textarea
+    attributes:
+      label: What isn’t working as expected on the website?
+      description: A concise description of the problem
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: If you encountered an error message, please copy the relevant details or take a screenshot and paste it below.
+      description: |
+        If you see an error message, please use the Copy Details button to copy and paste the information into the bug report.
+        
+        In some cases, a bug won’t necessarily produce an error page—i.e. something isn’t displaying properly or an input form doesn’t contain the correct fields. In those instances, post a screenshot of the page or the area of the page that contains the issue.
+      placeholder: Type NA if not applicable
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What is the URL of the page where you encountered the bug?
+      description: If you are unable to share the full URL (i.e. if your project is currently private), you can also just include the last part of the URL following the main website’s URL (i.e. /title/772 rather than http://mywebsite.com/title/772)
+      placeholder: Type N/A if not applicable
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What steps did you take before you encountered the bug?
+      placeholder: |
+        1. Go to page ...
+        2. Click ....
+        3.
+    validations:
+      required: true
+  - type: input
+    attributes:
+        label: What browser, operating system, and device were you using when you encountered the error?
+        placeholder: Chrome (updated), Windows 10, desktop
+  - type: textarea
+    attributes:
+        label: Additional information
+        description: Any additional information or comments
+    validations:
+        required: false
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
