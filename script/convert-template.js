@@ -11,7 +11,7 @@ const fs   = require('fs');
 const path = require('path');
 const pd = path.normalize(`${__dirname}/../`);
 const templateDir = path.normalize(`${pd}.github/ISSUE_TEMPLATE`);
-
+const HEADER_SEP = `---`;
 
 
 /**
@@ -38,6 +38,15 @@ const createTemplate = (form) => {
     this.yaml = fs.readFileSync(`${templateDir}/${form}`,'utf8');
     this.parsed = jsyaml.load(this.yaml);
     this.markdown = [];
+    this.header = {
+        name: this.parsed.name,
+        about: this.parsed.description,
+        title: "",
+        labels: "",
+        assignees: "",
+    }
+    //Create the YAML header first to make templates work properly
+    this.markdown.push([HEADER_SEP, jsyaml.dump(this.header), HEADER_SEP].join('\n'));
     for (const question of this.parsed.body){
         const block = createBlock(question);
         if (block){
