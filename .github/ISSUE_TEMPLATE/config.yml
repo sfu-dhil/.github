@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: Tips and instructions for creating issues
     url: https://sfu-dhil.github.io/dhil-docs/github
