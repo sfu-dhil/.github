@@ -4,6 +4,6 @@
       "convert": "node script/convert-template.js"
   },  
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.1"
   }
 }
